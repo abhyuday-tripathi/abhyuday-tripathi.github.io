@@ -2,7 +2,7 @@ root{
 	--mainColor:#eaeaea;
 	--secondaryColor:#fff;
 
-	--borderColor:#c1c1c1;
+	--borderColor:#000;
 
 	--mainText:black;
 	--secondaryText:#4b5156;
@@ -368,6 +368,7 @@ h6 { font-size: 16px;}
 
 #contact-form textarea{
 	min-height: 100px;
+	border: 1px solid var(--borderColor);
 	font-size: 14px;
 }
 
